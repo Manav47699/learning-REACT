@@ -1,0 +1,3 @@
+tailwindflex
+tailwindkit
+flowbite
