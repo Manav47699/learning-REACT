@@ -1,3 +1,10 @@
 tailwindflex
 tailwindkit
 flowbite
+
+
+DAY-4
+usestate
+useeffect
+yseRef
+alwasy starts with 'use'
