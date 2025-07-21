@@ -1,10 +1,55 @@
-tailwindflex
-tailwindkit
-flowbite
+# learning-REACT
+
+--DEVLOG--
+
+# july 15 2025, day 1: Set up REACT for tommorow's bootcamp  
+-> cmd: npm create vite@latest
+
+# july 17 2025, day 2: Learned routing with REACT and also installed tailwind in REACT  
+-> use this link to setup tailwind -> https://www.digitalpathshalanepal.com/blogs/how-to-integrate-tailwind-css-version-4-in-react-vite-project-67f5f1a8dfb63f91a42fdad8
+
+# july 18 2025, day 3: Learned components, using hyperlinks and hook/methods() [useState()]  
+-> componets: a building block in a site that can be used in any page of our project.  
+-> hyperlinks: href="/home"  [make sure you are using the same url in App.jsx  
+-> hooks: method() provided by REACT  
+-> useState(): used to store data . eg useState("manav") returns [name, setname()] i.e a variable to look at the content it stores and a function to manipulate that variable.
+
+# DAY-4  
+-> useState  
+-> useEffect  
+-> useRef  
+-> always starts with 'use'
+
+# DAY-5  
+-> mockapi.io -> for making a dummy backend api  
+-> axios -> npm install axios  
+   - GET, POST, PUT, DELETE  
+-> await -> must be used inside an async function  
+-> useEffect(function(), dependency array)  
+   - it is used to bring some  
+-> ()=> anonymous function  
 
 
-DAY-4
-usestate
-useeffect
-yseRef
-alwasy starts with 'use'
+DAY-6
+-> axis.post(""), {  :   }           //this must be in object type as our datatype is in JSON format
+-> <input> tag must be wraped in a parent <form> taga sa onlt form 
+
+🧠 NOTE -> go to DevTools > Network > Fetch/XHR . Then reload the page. You’ll see all the API calls there  
+
+🔁 Status code -> if the first number is 2, API SUCCESS 😎  
+-> You can find this at: Network > Fetch/XHR > click on the API call
+
+🔐 jun route ma `:pk` xa tesma matrai `useParams()` use garnu pauxa
+
+🧪 Homework: `/edit-blog/:id` ko UI banau
+
+📌 NOTE: we don't use `<a href>` in REACT, instead:
+
+1. **In JavaScript (logic) part**:  
+```js
+const navigate = useNavigate();  
+navigate("/edit-blog/" + blog.id)  // use this inside a button's onClick
+
+
+
+
