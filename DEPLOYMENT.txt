@@ -21,3 +21,8 @@ THIS FIXES THE 404 error after refreshing.
 -> sign up to vercel with your github account.
 -> select a new repo and manage some settings such as root directery and framework etc
 -> click deploy
+
+
+
+# FOR DATABASE
+-> for postgres : Supabase or just use railway.
