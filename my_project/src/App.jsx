@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './project/Home'
-import NotesList from './project/Test'
+import Toggle from './project/Toggle'
+// import NotesList from './project/Test'
 
 
 function App()
@@ -9,11 +10,15 @@ function App()
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home />} />
+        {/* <Route path='/' element={<Home />} />
         <Route path ="/fetch" element = {<NotesList />} />
-        
-      </Routes>
+
+         */}
+        {/* Route path="/about" element={<About />} /> */}
+        < Route path="/" element={<Home />} />
+        < Route path="/toggle" element={<Toggle />} />      </Routes>
     </BrowserRouter>
+    
 
 
   )
@@ -52,10 +57,10 @@ export default App
 // mantra: first ma brower router halne
 
 
-{/* <Route path="/about" element={<About />} />
-        <Route path="/create" element={<Create />} />
-        <Route path="/edit" element={<Edit />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/single/:id" element={<Single />} />
-        <Route path="/edit-blog/:id" element= {<Edit_blog />} />
-        <Route path="/learning_use_state" element ={<LearningUseState />} /> */}
+//  <Route path="/about" element={<About />} />
+//         <Route path="/create" element={<Create />} />
+//         <Route path="/edit" element={<Edit />} />
+//         <Route path="/blog" element={<Blog />} />
+//         <Route path="/single/:id" element={<Single />} />
+//         <Route path="/edit-blog/:id" element= {<Edit_blog />} />
+//         <Route path="/learning_use_state" element ={<LearningUseState />} /> 

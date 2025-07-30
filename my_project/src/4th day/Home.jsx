@@ -33,12 +33,14 @@ import { useEffect, useState } from 'react'
 
 
 function Home() {
+    console.log("hello")
     const [blogs, setblogs] = useState([])
     async function fetchblogs() {
         const response = await axios.get("https://687af359abb83744b7ee46ad.mockapi.io/blogs")
         console.log("Response: ",response.data)
         if (response.status == 200) {
             setblogs(response.data)
+            console.log (response.data)
         }
         else {
             alert("error ayyo yr ")
