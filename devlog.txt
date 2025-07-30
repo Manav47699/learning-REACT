@@ -6,7 +6,7 @@
 -> cmd: npm create vite@latest
 
 # july 17 2025, day 2: Learned routing with REACT and also installed tailwind in REACT  
--> use this link to setup tailwind -> https://www.digitalpathshalanepal.com/blogs/how-to-integrate-tailwind-css-version-4-in-react-vite-project-67f5f1a8dfb63f91a42fdad8
+-> use this link to setup tailwind -> https://www.digitalpathshalanepal.com/blogs/how-to-integrate-tailwind-css-version-4-in-react-vite-project
 
 # july 18 2025, day 3: Learned components, using hyperlinks and hook/methods() [useState()]  
 -> componets: a building block in a site that can be used in any page of our project.  
